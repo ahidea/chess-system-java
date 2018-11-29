@@ -13,6 +13,14 @@ public class King extends ChessPiece  {
 	@Override
 	public String toString() {
 		return "K";
+	}
+
+	@Override
+	public boolean[][] possibleMoves() {
+		// implementação provisória
+		boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
+        // por enquanto		
+		return mat;
 	}	
 
 }

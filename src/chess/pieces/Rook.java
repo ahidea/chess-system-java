@@ -16,4 +16,12 @@ public class Rook extends ChessPiece {
 		return "R";
 	}
 
+	@Override
+	public boolean[][] possibleMoves() {
+		// implementação provisória
+		boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
+        // por enquanto		
+		return mat;
+	}	
+	
 }
